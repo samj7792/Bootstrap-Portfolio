@@ -1,3 +1,21 @@
+body {
+    background-image: url("../images/background_pattern.png")
+}
+
+nav {
+    border-bottom: 3px solid #777777;
+}
+
 #brand {
     background: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+#mainsection {
+    background: #ffffff;
+    border: 1px solid #777777;
+    padding: 10px;
+    margin-top: 20px;
 }
