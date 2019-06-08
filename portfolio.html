@@ -3,32 +3,131 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
     <title>Bootstrap Portfolio</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
     <!--Start Nav-->
-    <nav>
 
-        About
+    <!-- navbar-expand-large class inlines all divs on navbar?-->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
 
-        About
+        <div class="container">
 
-        Portfolio
+            <span id="brand" class="navbar-brand mb-0 h1">Sam Jackson</span> 
 
-        Contact
+            <!-- navbar-nav class inlines these links and gives them special style-->
+            <div class="navbar-nav">
+
+                <!-- nav-link class gives link text special color, style, and spacing -->
+                <a class="nav-item nav-link" href="index.html">About</a>
+
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+        
+            </div>
+        
+        </div>
 
     </nav>
     <!--End Nav-->
 
     <div class="container">
 
-        <h2></h2>
+
+        <section id="mainsection">
+
+        <div class="row">
+
+            <!-- auto class auto sizes column to match h2 -->
+            <div class="col-md-auto">
+
+                <h2 id="sectionheader">Portfolio</h2>
+
+            </div>
+
+        </div>    
+        
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white">
+                    <img src="http://lorempixel.com/300/300/sports" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a id="projects" href="#"><h5>Project 1</h5></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card bg-dark text-white">
+                    <img src="http://lorempixel.com/300/300/animals" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a id="projects" href="#"><h5>Project 2</h5></a>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="card bg-dark text-white">
+                    <img src="http://lorempixel.com/300/300/city" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a id="projects" href="#"><h5>Project 3</h5></a>
+        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white">
+                    <img src="http://lorempixel.com/300/300/abstract" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a id="projects" href="#"><h5>Project 4</h5></a>
+            
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="card bg-dark text-white">
+                    <img src="http://lorempixel.com/300/300/cats" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a id="projects" href="#"><h5>Project 5</h5></a>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>   
+
 
 
     </div>
