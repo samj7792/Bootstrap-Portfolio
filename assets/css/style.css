@@ -6,24 +6,37 @@ nav {
     border-bottom: 3px solid #777777;
 }
 
+#navbar {
+    padding: 0px;
+}
+
 #brand {
     background: #4aaaa5;
     color: #ffffff;
     padding: 20px;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #mainsection {
     background: #ffffff;
     border: 1px solid #777777;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
+    margin-bottom: 72px;
 }
 
 #sectionheader {
-    background-color: #4aaaa5;
-    color: #ffffff;
+    color: #4aaaa5;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#mainBio {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 20px;
 }
 
 h5 {
@@ -37,3 +50,13 @@ h5 {
     color: #ffffff
 }
 
+#submit {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+footer {
+    padding-top: 20px;
+    border-top: 3px solid #4aaaa5;
+    background: #777777;
+}

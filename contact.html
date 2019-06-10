@@ -3,36 +3,100 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap Portfolio</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <title>Contact Sam Jackson</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
     <!--Start Nav-->
-    <nav>
+    <!-- navbar-expand-large class inlines all divs on navbar?-->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" id="navbar">
 
-        About
-
-        About
-
-        Portfolio
-
-        Contact
-
+        <div class="container">
+    
+            <span id="brand" class="navbar-brand mb-0 h1">Sam Jackson</span> 
+    
+            <!-- navbar-nav class inlines these links and gives them special style-->
+            <div class="navbar-nav">
+    
+                <!-- nav-link class gives link text special color, style, and spacing -->
+                <a class="nav-item nav-link" href="index.html">About</a>
+    
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+    
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            
+            </div>
+            
+        </div>
+    
     </nav>
     <!--End Nav-->
 
     <div class="container">
 
-        <h2></h2>
 
+        <section id="mainsection">
+    
+            <div class="row">
+    
+                <div class="col-md-auto">
+    
+                    <h2 id="sectionheader">Contact Sam Jackson</h2>
+    
+                </div>
+    
+            </div>    
+                
+            <hr>
+    
+            <div class="row">
+    
+                <div class="col-md">
 
+                    <form>
+
+                        <div class="form-group">
+
+                            <label for="nameInput">Name:</label>
+                            <input type="name" class="form-control" id="nameInput" placeholder="John Smith">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="emailInput">Email:</label>
+                            <input type="emial" class="form-control" id="emailInput" placeholder="example@email.com">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="messageInput">Message:</label>
+                            <textarea class="form-control" id="messageInput" rows="4"></textarea>
+
+                        </div>
+
+                        <button id="submit" type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+    
+        </section>
+    
     </div>
 
+    <footer class="fixed-bottom text-center text-light">
+        Copyright &copy;
+    </footer>
 
 </body>
 
